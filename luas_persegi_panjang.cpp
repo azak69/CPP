@@ -11,3 +11,5 @@ int main() {
     cout << "Luas persegi panjang adalah: " << luas << endl;
     return 0;
 }
+
+// Program ini menghitung luas persegi panjang berdasarkan input panjang dan lebar dari pengguna.
