@@ -10,11 +10,9 @@ int main() {
         cin >> arr[i];
     }
 
-    // TODO 1: Urutkan array 'arr' terlebih dahulu.
     for (int i = 0; i < N - 1; i++) {
         for (int j = 0; j < N - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                // Tukar arr[j] dan arr[j+1]
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -22,8 +20,6 @@ int main() {
         }
     }
 
-    // TODO 2: Temukan dan simpan nilai tengah (median) dari array yang sudah terurut.
-    // Ingat, indeks array dimulai dari 0.
     int median;
     if (N % 2 == 1) {
         median = arr[N / 2];
