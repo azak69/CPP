@@ -26,3 +26,5 @@ int main(){
 	cout << "Nilai Maksimal : " << max << endl;
 	cout << "Nilai Minimal : " << min;
 }
+
+// Program ini menentukan nilai maksimal dan minimal dari sejumlah data yang dimasukkan oleh pengguna.
