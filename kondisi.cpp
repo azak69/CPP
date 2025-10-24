@@ -9,7 +9,7 @@ int main(){
 	hasil = a % 2;
 	
 	string kondisi = hasil == 1 ? "Ganjil" : "Genap";
-	cout << "Angka " << a << " adalah bilangan " << kondisi << ".";
+	cout << "Angka " << a << " adalah bilangan " << kondisi << endl;
 	
 	return 0;
 }
