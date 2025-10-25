@@ -24,6 +24,7 @@ void bersihkan_layar();
 
 int main(){
 	int pilihan;
+
 	do {
 		tampilkan_menu();
 		cout << "Masukkan Pilihan Anda : ";
@@ -60,6 +61,7 @@ int main(){
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			cin.get();
 		}
+
 	} while (pilihan != 5);
 	
 	return 0;
@@ -67,6 +69,7 @@ int main(){
 
 void tampilkan_menu() {
 	bersihkan_layar();
+
 	cout << "========================================" << endl;
 	cout << "   Sistem Manajemen Data Mahasiswa" << endl;
 	cout << "========================================" << endl;
@@ -80,6 +83,7 @@ void tampilkan_menu() {
 
 void tambah_mahasiswa(){
 	bersihkan_layar();
+
 	if (jumlah_mahasiswa >= max_mahasiswa){
 		cout << "Kapasitas data penuh. Tidak bisa menambah mahasiawa lagi." << endl;
 		return;
@@ -106,6 +110,7 @@ void tambah_mahasiswa(){
 void tampilkan_semua_mahasiswa(){
 	bersihkan_layar();
 	cout << "--- Daftar Semua Mahasiswa ---" << endl;
+
 	if (jumlah_mahasiswa == 0){
 		cout << "Belum ada data mahasiswa yang tersimpan." << endl;
 		return;
@@ -119,16 +124,19 @@ void tampilkan_semua_mahasiswa(){
 		cout << "Jurusan		: " << daftar_mahasiswa[i].jurusan << endl;
 		cout << "IPK		: " << daftar_mahasiswa[i].ipk << endl;
 	}
+
 	cout << "----------------------------------------" << endl;
 }
 
 void cari_mahasiswa(){
 	bersihkan_layar();
 	cout <<"--- Cari Data Mahasiswa ---" << endl;
+
 	if (jumlah_mahasiswa == 0){
 		cout << "Belum ada data mahasiswa untuk dicari." << endl;
 		return;
 	}
+
 	string nim_cari;
 	cout << "Masukkan NIM mahasiswa yang ingin dicari : ";
 	cin >> nim_cari;
@@ -154,6 +162,7 @@ void cari_mahasiswa(){
 void hapus_mahasiswa(){
 	bersihkan_layar();
 	cout << "--- Hapus Data Mahasiswa ---" << endl;
+
 	if (jumlah_mahasiswa == 0){
 		cout << "Belum ada data mahasiswa untuk dihapus." << endl;
 		return;
@@ -189,3 +198,5 @@ void bersihkan_layar(){
 		system("clear");
 	#endif
 }
+
+// Program ini adalah sistem manajemen data mahasiswa sederhana yang memungkinkan pengguna untuk menambah, menampilkan, mencari, dan menghapus data mahasiswa berdasarkan NIM mereka.
