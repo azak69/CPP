@@ -13,3 +13,5 @@ int main(){
 	
 	return 0;
 }
+
+// Program ini menghitung jumlah elemen dalam array menggunakan operator sizeof dan menampilkan setiap elemen array.
