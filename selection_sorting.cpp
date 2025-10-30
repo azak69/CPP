@@ -35,3 +35,5 @@ int main() {
     cout << median << endl;
     return 0;
 }
+
+// Program ini mengurutkan array menggunakan algoritma selection sort dan kemudian menghitung median dari array yang telah diurutkan.
