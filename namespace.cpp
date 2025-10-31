@@ -26,3 +26,5 @@ int main(){
     cetak("Kedamaian Abadi");
     return 0;
 }
+
+// Program ini mendemonstrasikan penggunaan namespace untuk menghindari konflik nama fungsi cetak.
