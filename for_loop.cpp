@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     int awal, akhir;
+    cout << "Program Perulangan : " << endl;
     cout << "Masukkan angka awal: ";
     cin >> awal;
     cout << "Masukkan angka akhir: ";
