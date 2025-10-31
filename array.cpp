@@ -41,3 +41,5 @@ int main(){
 	rata2 = total / jml_data;
 	cout << "Rata-Rata Nilai Data : " << rata2;
 }
+
+// Program ini mendemonstrasikan penggunaan array di C++.
