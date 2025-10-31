@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int luas_segitiga(int alas, int tinggi){
+double luas_segitiga(double alas, double tinggi){
     int luas = (alas * tinggi) / 2;
     return luas;
 }
 
-int keliling_segitiga(int sisi1, int sisi2, int sisi3){
+double keliling_segitiga(double sisi1, double sisi2, double sisi3){
     int keliling = sisi1 + sisi2 + sisi3;
     return keliling;
 }
 
 void tampil_luas(int alas, int tinggi){
-    int luas = luas_segitiga(alas, tinggi);
+    double luas = luas_segitiga(alas, tinggi);
     cout << "Luas Segitiga dengan alas " << alas << " dan tinggi " << tinggi << " adalah: " << luas << endl;
 }
 
