@@ -40,9 +40,7 @@ int main(){
         cout << "Mau mengulang lagi <y/n>? ";
         cin >> l;          
     }while(l == "y" || l == "Y" || l == "ya" || l == "Ya");
-    if (l != "y" || l != "Y" || l != "ya" || l != "Ya"){
-        cout << "\nTerimakasih telah memainkan Game ini!" << endl;
-    }
+    cout << "\nTerimakasih telah memainkan Game ini!" << endl;
 return 0;  
 }
 
