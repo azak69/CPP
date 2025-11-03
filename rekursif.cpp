@@ -11,6 +11,7 @@ void rekursif(int n){
 
 int main(){
     rekursif(10);
+    return 0;
 }
 
 // Program ini menggunakan rekursif untuk memanggil kembali fungsi pada dirinya sendiri.
