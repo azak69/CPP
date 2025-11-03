@@ -19,6 +19,7 @@ int main(){
         f1 = f2;
         f2 = temp;
     }
+    return 0;
 }
 
 // Program ini menghitung fibonacci menggunakan for loop.
