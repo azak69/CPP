@@ -15,3 +15,5 @@ int main(){
         cout << "File tidak bisa dibuka!";
     }
 }
+
+// Program ini menggunakan ifstream untuk menampilkan isi dari file teks.txt ke terminal
