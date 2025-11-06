@@ -15,4 +15,4 @@ int main(){
     system("START /MIN NOTEPAD teks.txt");   
 }
 
-// Program diatas menggunakan ofstream untuk menuliskan kalimat ke sebuah file yang dibuat.
+// Program ini menggunakan ofstream untuk menuliskan kalimat ke sebuah file yang dibuat.
