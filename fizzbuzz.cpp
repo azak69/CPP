@@ -13,6 +13,8 @@ int main(){
             cout << i << endl;
         }
     }
+    cout << endl;
+    cout << "Gini aja nggak bisa?" << endl;
     return 0;
 }
 
