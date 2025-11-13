@@ -29,6 +29,9 @@ int main (){
     for (int j = 0; j < 10; j++){
         cout << a[j] << " ";
     }
+
+    free(a);
+    return 0;
 }
 
 // Program ini mendemonstrasikan penggunaan realloc dalam library cstdlib untuk mengubah jumlah ruang memori yang sudah dialokasikan dengan malloc.
