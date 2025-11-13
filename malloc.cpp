@@ -3,8 +3,7 @@
 using namespace std;
 
 int main(){
-    int *a;
-    a = (int*) malloc(10 *sizeof(int));
+    int *a = (int*) malloc(10 *sizeof(int));
 
     if (a == NULL){
         cout << "Alokasi memori gagal!" << endl;
