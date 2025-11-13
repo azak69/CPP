@@ -12,14 +12,17 @@ void kuadrat(int *z){
 
 int main(){
     int a = 9;
-    int b;
+    int b = 8;
     int *c = &a;
     int d = *c;
+    int *e = &b;
 
     cout << "Alamat a : " << &a << endl;
     cout << "Alamat b : " << &b << endl;
     cout << "c menunjukkan alamat a : " << c << endl;
     cout << "d menunjukkan nilai dari variabel yang ditunjuk c, yaitu a : " << d << endl;
+    cout << "ubah nilai b dengan menggunakan pointer e : "; cin >> *e;
+    cout << "Nilai b sekarang : " << b << endl;
     
     int x = 5;
     angka(&x);
@@ -28,6 +31,6 @@ int main(){
     return 0;
 }
 
-// * reference untuk menyimpan alamat dari variabel di memori.
-// & dereference untuk menampilkan alamat dari variabel di memori.
+// * reference untuk menunjuk alamat dari variabel.
+// & dereference untuk menampilkan alamat dari variabel.
 // Program ini mendemonstrasikan penggunaan pointer dalam c++.
