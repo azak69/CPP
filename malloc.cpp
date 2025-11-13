@@ -23,4 +23,4 @@ int main(){
     return 0;
 }
 
-// Program ini mendemonstrasikan penggunaan alokasi memori untuk membuat ruang memori sejumlah 10, lalu dimasukkan input oleh pengguna;
+// Program ini mendemonstrasikan penggunaan alokasi memori dalam library cstdlib untuk membuat ruang memori sejumlah 10, lalu dimasukkan input oleh pengguna.
